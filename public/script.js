@@ -1,4 +1,4 @@
-$(document).ready(function() {
+
     var options = {
         enableGestures: true
     };
@@ -26,4 +26,3 @@ $(document).ready(function() {
                 break;
         }
     });
-});
