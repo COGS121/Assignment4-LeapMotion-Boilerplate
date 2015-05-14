@@ -4,8 +4,7 @@ var express = require('express'),
     handlebars = require('express-handlebars'),
     mongoose = require('mongoose'),
     bodyParser = require('body-parser'),
-    cookieParser = require('cookie-parser'),
-    leap = require('leapjs');
+    cookieParser = require('cookie-parser');
 
 var app = express();
 
@@ -22,9 +21,6 @@ app.use(cookieParser());
 app.get('/', function(req, res) {
     res.render('index');
 });
-app.get('/slide', function(req, res){
-    res.render('slides-deck');
-})
 
 app.set('port', process.env.PORT || 3000);
 http.createServer(app).listen(app.get('port'), function() {
