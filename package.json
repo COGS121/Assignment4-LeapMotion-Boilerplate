@@ -1,11 +1,11 @@
 {
-  "name": "leapmotion",
+  "name": "MyApplication",
   "version": "0.0.1",
-  "description": "Some Description",
+  "description": "",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "author": "Brian Soe",
+  "author": "COGS 121",
   "license": "MIT",
   "dependencies": {
     "body-parser": "1.12.2",
